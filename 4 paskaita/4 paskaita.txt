@@ -1,0 +1,136 @@
+Pagrazinti su tolerancija paveiksliukus
+CTR+I
+CTRl+shift+x
+
+Header 
+
+Content
+
+a*5 5 kartus padaugina
+
+
+skenavimas vyuksta nuo vir6aus i apacia, selekotrius rasyti nuo virsaus i apacoia kaip jei atsiranda  (liami paskutinis selektorius)
+
+container pagrindinis elemntas, i kuri desis kiti
+
+* reiskia kad paveiktu visus esancius elementus pagrindiniame
+
+
+Css
+
+.colum1 {
+  z-index: -1;
+  background-color: #8BC06A;
+  width: 50%;
+  height: 920px;
+  position: absolute;
+ }
+
+.colum2 {
+  background-color:#F8F8F8;
+  width:660px;
+  height: 320px;
+  float: left;
+  margin-left: 32.5%;
+  margin-top: 300px;
+  padding: 0px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+  border-style: none;
+  border-radius: 5px;
+}
+
+
+.colum3 {
+  background-color: rgb(115, 99, 146);
+  width: 660px;
+  height: 50px;
+  float: left;
+  margin-left: 0px;
+  margin-top: 5px;
+  padding: 0px;
+ }
+ 
+/* ab */
+
+ /* .colum4 {
+  background-color: rgb(255, 47, 57);
+  width: 50%;
+  height: 50px;
+  float: right;
+  margin-right: 0px;
+  margin-top: 5px;
+  padding: 0px;
+ } */
+
+.colum5 {
+  /* background-color: rgba(185, 187, 183, 0.103); */
+  width: 35%;
+  height: 240px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 15px;
+  padding: 0px;
+ }
+
+ .colum6 {
+  /* background-color: rgba(111, 112, 110, 0.103); */
+  width: 50%;
+  height: 240px;
+  float: right;
+  margin-left: 0px;
+  margin-top: 15px;
+  padding: 0px;
+ }
+
+ .img1 {
+  float: left;
+  margin-left: 30px;
+}
+
+ .img2 {
+   float: right;
+   margin-right: 30px;
+ }
+
+ h1 {
+  font-size: 60px;
+  text-align: left;
+  color: #9E9E9E;
+  font-family: Arial;
+  margin-top: 40px;
+  margin-bottom: 0px;
+ }
+
+ p {
+  font-size: 20px;
+  text-align: left;
+  color: #9E9E9E;
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+
+
+
+HTML
+
+<div class="colum1"></div>
+    <div class="colum2">
+            <div class="colum3"> 
+                <img class="img1" src="./img/neryskus.png" alt="Neryskus zenklas">
+            </div>
+            <!-- <div class="colum4">
+                <p>column4</p>
+                </div> -->
+            <div class="colum5">
+                <h1>404</h1>
+                <p>The link is broken or the page has been removed.</p>
+            </div>
+            <div class="colum6">
+                <img class="img2" src="./img/ZaliasUobolys.png" alt="obuolys dingo">
+            </div>
+            
+    </div>
+

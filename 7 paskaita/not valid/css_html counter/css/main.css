@@ -1,0 +1,313 @@
+.sek {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 200px;
+    width: 200px;
+    height: 600px;
+    background-color: yellow;
+    color: aqua;
+    position: relative;
+}
+.zero {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    left: 50px;
+    animation-name: one1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    opacity: 0;
+    /* animation-timing-function: cubic-bezier(0,0,0.58,1); */
+}
+@keyframes one1 {
+    0% {opacity: 0; top: 0px; color: aqua;}
+    10% {opacity: 0; top: 0px;  color: aqua;}
+    20% {opacity: 0; top: 0px;  color: aqua;}
+    30% {opacity: 0; top: 0px;  color: aqua;}
+    40% {opacity: 0; top: 0px;  color: aqua;}
+    50% {opacity: 0; top: 0px;  color: aqua;}
+    60% {opacity: 0; top: 0px;  color: aqua;}
+    70% {opacity: 0; top: 0px;  color: aqua;}
+    80% {opacity: 0; top: 0px;  color: aqua;}
+    90% {opacity: 1; top: 0px;  color: red;}
+    100% {opacity: 0; top: 0px; color: aqua;}
+}
+    .one {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px;
+        animation-name: one1;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-delay: 8s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0;
+        /* animation-timing-function: cubic-bezier(0,0,0.58,1); */
+    }
+    @keyframes one1 {
+        0% {opacity: 1; top:0px; color: red;}
+        10% {opacity: 0;top:0px;  color: aqua;}
+        20% {opacity: 0; top:0px;  color: aqua;}
+        30% {opacity: 0; top:0px;  color: aqua;}
+        40% {opacity: 0; top:0px;  color: aqua;}
+        50% {opacity: 0; top:0px;  color: aqua;}
+        60% {opacity: 0; top:0px;  color: aqua;}
+        70% {opacity: 0; top:0px;  color: aqua;}
+        80% {opacity: 0; top:0px;  color: aqua;}
+        90% {opacity: 0; top:0px;  color: aqua;}
+        100% {opacity: 0; top:0px; color: aqua;}
+    }
+    .two {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px;
+        animation-name: one1;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-delay: 7s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0;
+        /* animation-timing-function: cubic-bezier(0,0,0.58,1); */
+    }
+    @keyframes one1 {
+        0% {opacity: 0;top: 0px; color: aqua;}
+        10% {opacity: 1; top: 0px; color: red;}
+        20% {opacity: 0;top: 0px; color: aqua;}
+        30% {opacity: 0;top: 0px; color: aqua;}
+        40% {opacity: 0;top: 0px; color: aqua;}
+        50% {opacity: 0;top: 0px; color: aqua;}
+        60% {opacity: 0;top: 0px; color: aqua;}
+        70% {opacity: 0;top: 0px; color: aqua;}
+        80% {opacity: 0;top: 0px; color: aqua;}
+        90% {opacity: 0;top: 0px; color: aqua;}
+        100% {opacity: 0;top: 0px; color: aqua;}
+    }
+    .three {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px;
+        animation-name: one1;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-delay: 6s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0;
+        /* animation-timing-function: cubic-bezier(0,0,0.58,1); */
+    }
+    @keyframes one1 {
+        0% {opacity: 0; top: 0px; color: aqua;}
+        10% {opacity: 0; top: 0px;  color: aqua;}
+        20% {opacity: 1; top: 0px;  color: red;}
+        30% {opacity: 0; top: 0px;  color: aqua;}
+        40% {opacity: 0; top: 0px;  color: aqua;}
+        50% {opacity: 0; top: 0px;  color: aqua;}
+        60% {opacity: 0; top: 0px;  color: aqua;}
+        70% {opacity: 0; top: 0px;  color: aqua;}
+        80% {opacity: 0; top: 0px;  color: aqua;}
+        90% {opacity: 0; top: 0px;  color: aqua;}
+        100% {opacity: 0; top: 0px; color: aqua;}
+    }
+    .four {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px;
+        animation-name: one1;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-delay: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0;
+        /* animation-timing-function: cubic-bezier(0,0,0.58,1); */
+    }
+    @keyframes one1 {
+        0% {opacity: 0; top: 0px; color: aqua;}
+        10% {opacity: 0; top: 0px;  color: aqua;}
+        20% {opacity: 0; top: 0px;  color: aqua;}
+        30% {opacity: 1; top: 0px;  color: red;}
+        40% {opacity: 0; top: 0px;  color: aqua;}
+        50% {opacity: 0; top: 0px;  color: aqua;}
+        60% {opacity: 0; top: 0px;  color: aqua;}
+        70% {opacity: 0; top: 0px;  color: aqua;}
+        80% {opacity: 0; top: 0px;  color: aqua;}
+        90% {opacity: 0; top: 0px;  color: aqua;}
+        100% {opacity: 0; top: 0px; color: aqua;}
+    }
+    .five {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px;
+        animation-name: one1;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0;
+        /* animation-timing-function: cubic-bezier(0.25,0.1,0.25,1); */
+    }
+    @keyframes one1 {
+        0% {opacity: 0; top: 0px; color: aqua;}
+        10% {opacity: 0; top: 0px;  color: aqua;}
+        20% {opacity: 0; top: 0px;  color: aqua;}
+        30% {opacity: 0; top: 0px;  color: aqua;}
+        40% {opacity: 1; top: 0px;  color: red;}
+        50% {opacity: 0; top: 0px;  color: aqua;}
+        60% {opacity: 0; top: 0px;  color: aqua;}
+        70% {opacity: 0; top: 0px;  color: aqua;}
+        80% {opacity: 0; top: 0px;  color: aqua;}
+        90% {opacity: 0; top: 0px;  color: aqua;}
+        100% {opacity: 0; top: 0px; color: aqua;}
+    }
+    .six {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px;
+        animation-name: one1;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0; 
+        /* animation-timing-function: cubic-bezier(0.25,0.1,0.25,1); */
+    }
+    @keyframes one1 {
+        0% {opacity: 0; top: 0px; color: aqua;}
+        10% {opacity: 0; top: 0px;  color: aqua;}
+        20% {opacity: 0; top: 0px;  color: aqua;}
+        30% {opacity: 0; top: 0px;  color: aqua;}
+        40% {opacity: 0; top: 0px;  color: aqua;}
+        50% {opacity: 1; top: 0px;  color: red;}
+        60% {opacity: 0; top: 0px;  color: aqua;}
+        70% {opacity: 0; top: 0px;  color: aqua;}
+        80% {opacity: 0; top: 0px;  color: aqua;}
+        90% {opacity: 0; top: 0px;  color: aqua;}
+        100% {opacity: 0; top: 0px; color: aqua;}
+    }
+    .seven {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px;
+        animation-name: one1;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0;
+    }
+    @keyframes one1 {
+        0% {opacity: 0; top: 0px; color: aqua;}
+        10% {opacity: 0; top: 0px;  color: aqua;}
+        20% {opacity: 0; top: 0px;  color: aqua;}
+        30% {opacity: 0; top: 0px;  color: aqua;}
+        40% {opacity: 0; top: 0px;  color: aqua;}
+        50% {opacity: 0; top: 0px;  color: aqua;}
+        60% {opacity: 1; top: 0px;  color: red;}
+        70% {opacity: 0; top: 0px;  color: aqua;}
+        80% {opacity: 0; top: 0px;  color: aqua;}
+        90% {opacity: 0; top: 0px;  color: aqua;}
+        100% {opacity: 0; top: 0px; color: aqua;}
+    }
+    .eight {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px;
+        animation-name: one1;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0;
+    }
+    @keyframes one1 {
+        0% {opacity: 0; top: 0px; color: aqua;}
+        10% {opacity: 0; top: 0px;  color: aqua;}
+        20% {opacity: 0; top: 0px;  color: aqua;}
+        30% {opacity: 0; top: 0px;  color: aqua;}
+        40% {opacity: 0; top: 0px;  color: aqua;}
+        50% {opacity: 0; top: 0px;  color: aqua;}
+        60% {opacity: 0; top: 0px;  color: aqua;}
+        70% {opacity: 1; top: 0px;  color: red;}
+        80% {opacity: 0; top: 0px;  color: aqua;}
+        90% {opacity: 0; top: 0px;  color: aqua;}
+        100% {opacity: 0; top: 0px; color: aqua;}
+    }
+    .nine {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px;
+        animation-name: one1;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0;
+    }
+    @keyframes one1 {
+        0% {opacity: 0; top: 0px; color: aqua;}
+        10% {opacity: 0; top: 0px;  color: aqua;}
+        20% {opacity: 0; top: 0px;  color: aqua;}
+        30% {opacity: 0; top: 0px;  color: aqua;}
+        40% {opacity: 0; top: 0px;  color: aqua;}
+        50% {opacity: 0; top: 0px;  color: aqua;}
+        60% {opacity: 0; top: 0px;  color: aqua;}
+        70% {opacity: 0; top: 0px;  color: aqua;}
+        80% {opacity: 1; top: 0px;  color: red;}
+        90% {opacity: 0; top: 0px;  color: aqua;}
+        100% {opacity: 0; top: 0px; color: aqua;}
+    }
+    
+        p{
+        display: inline-block;
+        font-size: 40px;
+        }
+        

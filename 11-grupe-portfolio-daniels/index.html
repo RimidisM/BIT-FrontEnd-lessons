@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio-Daniels</title>
+    <link rel="icon" href="./img/other/hero.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+</head>
+<body>
+<!-- header start -->
+    <header class="container mobile " id="header-cont">
+        <div class="row">
+            <a href="#link-url" class="nav-logo">DANIELS</a>
+            <i class="fa fa-bars"></i>
+            <nav>
+                <div class="list">
+                    <a href="#" class="active" >HOME</a>      
+                </div>
+                <div class="list">
+                    <a href="#about" id="bar-load">About</a>
+                </div>
+                <div class="list">
+                    <a href="#services-tag" >Services</a>
+                </div>
+                <div class="list">
+                    <a href="#works">Works</a>
+                </div>
+                <div class="list">
+                    <a href="#clients">Clients</a>
+                </div>
+                <div class="list">
+                    <a href="#blog">Blog</a>
+                </div>
+                <div class="list">
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+<!-- header end -->
+
+<!-- hero start -->
+    <div class="container hero-bg" >
+        <div class="hero-color" id="particles-js"></div>
+        <div class="row">
+            <h1>Hello</h1>
+            <h2 class="iam">
+                I Am <div id="hero-anime"></div>
+            </h2>
+            <div class="socials" id="hero-socials"></div>
+        </div>
+    </div>
+<!-- hero end -->
+
+<!-- about me start -->
+    <div class="container me-achiev" id="about">
+        <div class="row about-me">
+            <div class="me-img">
+                <img src="./img/other/hero.jpg" alt="This is me">
+            </div>
+            <div class="info-me">
+                <div class="section">
+                        <h2>About me.</h2>
+                    </div class="skils"> 
+                        <span class="title-me">UI / UX DESIGNER & WEB DEVELOPER</span> 
+                        <p>I am <span class="name">Jerry Daniels</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
+                        <div id="progress"></div>
+                    <div class="connection">
+                        <div class="btn black">Download C.V</div>
+                        <div class="btn white">Contact me</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- about me end -->
+
+<!-- services start -->
+    <div class="container bg-color" id="services-tag">
+        <div class="row">
+                <div class="section">
+                    <h2>Services.</h2>
+                </div>
+        </div>       
+        <div class="row" id="services" "></div>
+    </div>
+<!-- services end -->
+
+<!-- portfolio start -->
+    <div class="container portfolio-container" id="works">
+        <div class="row">
+            <div class="section">
+                <h2>Portfolio.</h2>
+            </div>
+            <nav id="works-nav">
+                <div class="list">
+                    <a class="nav-list active" onclick="filterSelection('all')">All</a>      
+                </div>
+                <div class="list">
+                    <a class="nav-list" onclick="filterSelection('brand')">Brand</a>
+                </div>
+                <div class="list">
+                    <a class="nav-list" onclick="filterSelection('design')">Design</a>
+                </div>
+                <div class="list">
+                    <a class="nav-list" onclick="filterSelection('graphic')">Graphic</a>
+                </div>
+            </nav>
+            <div class="portfolio" id="album"></div>
+        </div>       
+    </div>
+<!-- portfolio end -->
+
+<!-- testimonials start -->
+    <div class="container bg-color" id="clients">
+        <div class="row">
+            <div class="section">
+                <h2>Testimonials.</h2>
+                </div>      
+            <div  class="content">
+                <div id="testimonialContent"></div>
+            </div>
+        </div>
+    </div>
+<!-- testimonials end -->
+
+<!-- numbers start -->
+    <div class="container" id="containerNumbers">
+        <div class="row" id="numbers"></div> 
+    </div>
+<!-- numbers end -->
+
+<!-- our blog start -->
+    <div class="container bg-color" id="blog">
+        <div class="row">
+                <div class="section">
+                    <h2>Our blog.</h2>
+                </div>
+        </div> 
+    </div>
+<!-- our blog end -->
+
+<!-- contact us start -->
+    <div class="container" id="contact">
+        <div class="row">
+            <div class="row">
+                <div class="section">
+                    <h2>Contac us.</h2>
+                </div>
+                <div class="contacts">
+                    <div class="address">
+                        <a href="#" class="fa fa-location-arrow"></a>
+                        <h4>Address</h4>
+                        <p>6834 Hollywood Blvd Los Angeles CA</p>
+                    </div>
+                    <div class="email">
+                        <a href="#" class="fa fa-envelope"></a>
+                        <h4>Email</h4>
+                        <p>Support@website.com</p>
+                    </div>
+                    <div class="phone">
+                        <a href="#" class="fa fa-phone"></a>
+                        <h4>Phone</h4>
+                        <p>+20 010 2517 8918</p>
+                    </div>
+                </div>
+                <form>
+                    <input class="two-in-row " name="name" type="text" placeholder="Name">
+                    <input class="two-in-row" name="email" type="email" placeholder="Email">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <div class="btn black" id="submit">Submit</div>
+                </form>
+            </div>
+        </div>
+    </div>
+<!-- contact us end -->
+
+<!-- footer start -->
+    <footer class="container">
+        <div class="row">
+            <p>Copy Right 2018 © By Daniels All Rights Reserved</p>
+        </div>
+    </footer>
+<!-- footer end -->
+
+    <script src="./js/data.js"></script>
+    <script src="./js/functions.js"></script>
+    <script src="./js/actions.js"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/particles.min.js"></script>
+
+</body>
+</html>

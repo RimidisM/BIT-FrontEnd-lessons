@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    background: #330e88;
+}
+.countdown {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: translate(-0%, -30%);
+}
+p {
+    display: inline-block;
+    font-size: 200px;
+    color: white;
+    position: relative;
+    bottom: 100px;
+
+}
+.countdown span {
+    font-family: grenze;
+    font-weight: bold;
+    color: rgb(207, 46, 100);
+    border: 5px solid #fff;
+    border-radius: 25px;
+    box-shadow: 2px 1px 12px #fff;
+    margin: 0 10px;
+    padding: 0 30px;
+}
+/* minutes */
+.box {
+    display: inline-block;
+    overflow: hidden;
+    height: 1em;
+    line-height: 1em;
+    font-weight: bold;
+    font-size: 16em;
+}
+.box:after {
+    position: relative;
+    white-space: pre;
+    content: "9\A 8\A 7\A 6\A 5\A 4\A 3\A 2\A 1\A 0\A ";
+}
+
+.box.second-num:after {
+    animation: count 10s steps(10) infinite;
+}
+
+@keyframes count {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -10em;
+    }
+}
+.boxm {
+    display: inline-block;
+    overflow: hidden;
+    height: 1em;
+    line-height: 1em;
+    font-weight: bold;
+    font-size: 16em;
+}
+.boxm:after {
+    position: relative;
+    white-space: pre;
+    content: "5\A 4\A 3\A 2\A 1\A 0\A ";
+}
+.boxm.third-num:after {
+    animation: countm 60s steps(6) infinite;
+}
+
+@keyframes countm {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -6em;
+    }
+}
+
+/* valandos */
+.box-h {
+    display: inline-block;
+    overflow: hidden;
+    height: 1em;
+    line-height: 1em;
+    font-weight: bold;
+    font-size: 16em;
+}
+.box-h:after {
+    position: relative;
+    white-space: pre;
+    content: "9\A 8\A 7\A 6\A 5\A 4\A 3\A 2\A 1\A 0\A ";
+}
+
+.box-h.second-num:after {
+    animation: count-h 600s steps(10) infinite;
+}
+
+@keyframes count-h {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -10em;
+    }
+}
+.box-min {
+    display: inline-block;
+    overflow: hidden;
+    height: 1em;
+    line-height: 1em;
+    font-weight: bold;
+    font-size: 16em;
+}
+.box-min:after {
+    position: relative;
+    white-space: pre;
+    content: "5\A 4\A 3\A 2\A 1\A 0\A ";
+}
+.box-min.third-num:after {
+    animation: count-min 3600s steps(6) infinite;
+}
+
+@keyframes count-min {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -6em;
+    }
+}
+/* days */
+.boxd {
+    display: inline-block;
+    overflow: hidden;
+    height: 1em;
+    line-height: 1em;
+    font-weight: bold;
+    font-size: 16em;
+}
+.boxd:after {
+    position: relative;
+    white-space: pre;
+    content: "9\A 8\A 7\A 6\A 5\A 4\A 3\A 2\A 1\A 0\A ";
+}
+.boxd.first-num:after {
+    animation: countd 86400s steps(10) infinite;
+}
+.boxd.second-num:after {
+    animation: countd 864000s steps(10) infinite;
+}
+.boxd.third-num:after {
+    animation: countd 864000s steps(10) infinite;
+}
+@keyframes countd {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -10em;
+    }
+}
+
+
+

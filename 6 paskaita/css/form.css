@@ -1,0 +1,31 @@
+form {
+    display: inline-block;
+    width: 100%;
+   
+}
+    .form-row {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+        .no-margin {
+            margin-bottom: 0;
+        }
+        label {
+            display: inline-block;
+            width: 100%;
+            color: #C1C1C1;
+            margin-bottom: 5px;
+            line-height: 20px;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        input {
+            display: inline-block;
+            width: 100%;
+            line-height: 30px;
+            font-size: 20px;
+            border: none;
+            border-bottom: 5px solid #C1C1C1;
+            outline-style: none;
+        }

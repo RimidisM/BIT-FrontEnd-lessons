@@ -1,0 +1,52 @@
+display: inline block;  perraso, kad blokai butu vienoje eileje, default, kad vienas po kito
+
+tarpu panaikinimas du elementai po 50%; 
+float: left (pagal nutylejima) arba right
+
+width: 100%;
+
+sitie 3 naudojami beveik visada
+
+
+elementu sudejimas eileje
+
+text-alig: center;
+
+kad a butu centruojamas turi buti display: inline-block, pagal nutilejimas inline
+
+inline taikomas sakinyje esanciam zodziui, tekstui, todel jo negalime centruoti
+
+inline-block galimybe atsidurti salia jei telpame
+
+turinis atsistumimas nuo elemento  pading: 	Gali buti TOP bottom ir taip toliau
+
+Raidziu dyddziu savybe, pvz viska i didiziases raides  text-transform: uppercase;
+
+text-decoration: none;    pagal nutilejimas yra papraugta
+
+uzapvalinimas border-radius: 10px;  (pvz)
+
+user agent default narsykles stilius
+
+
+<!-- Isaugojimui versiju, ju vakdymui naudoti git , kad veiktu su trash nuresetinti terminal-->
+<!-- kad matyti visus pakeitimus terminal git logg gg-->
+<!-- kaire -->
+<!-- Terminal power shell git dasch -->
+<!-- <div> 
+    <div class="column" style="background-color: yellow";>
+        <div>
+            <img src="https://cdn.discordapp.com/attachments/633593426566316042/635783990309158913/img.png" 
+            alt="No way Sherlock "></div>
+        <div class="column" style="background-color: green; width: 10%";>
+            <div class="column" style="width: 10%; padding: 0px; margin-top: 0px; background-color: red";>
+                <h1>404</h1>   <!-- tokius komentarus rasyti ranka-->
+                <!-- <p>Looks like this page is missing. <br> Do not worry though, our best <br> man is on the case.</p>
+                <p style="margin-top: 30px; margin-bottom: 10px; font-size: 13px;">Meanwhile, why don't try again by going</p>
+                <form action="https://en.wikipedia.org/wiki/Michael_Jackson%27s_This_Is_It_(album)" method="get" target="_blank">
+                <p><button class="button" type="submit" style="background-color:rgb(105, 110, 139)">BACK HOME</button></p> -->
+            <!-- </div>   
+        </div>
+    </div>
+</div>
+  <!-- --> --> -->

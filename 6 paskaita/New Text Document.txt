@@ -1,0 +1,33 @@
+Pastumimas su position absoliute ir nurorodme dydziu
+
+stume nuo to kuriam parenkame position relative
+
+../ ir linux reiskia kilti vienu lajeriu aukstyn
+
+norint dar auksciau kilti ../../../  priklausomai keik auksciau
+
+nuotraukos uzemimas visa plota 
+
+kad foto nesikartotu 
+
+vh reiskia 100% ekrano aukscio
+
+dinamika vertikaliai transform: translate (-50%, -50%);
+
+
+Myktuko efektas pvz .btn:hove ir suteikia visus efektus ant jo uzvedus ir paspaudus
+box-shadow: 0 4 px 10px 8px rgab(0, 0, 0, 0.3)
+
+10px bluras
+8px didina seseli i visas puses
+
+rgba 0.3 juodos persvieicamumas
+
+
+box-shadow: 0 4 px 10px 8px rgab(0, 0, 0, 0.3, ir galima vel prirasineti keik norim seseliu)
+
+hower stilius
+
+outline kaip rasti 
+force state .focuced
+uzfryzinam tada ieksome computed

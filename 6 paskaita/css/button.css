@@ -1,0 +1,26 @@
+.btn {
+    display: inline-block;
+    background-color: #2555D4;
+    color: white;
+   
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+
+  }
+
+  /* Kai kursiorius uzeis bus taikomos taisykles */
+  .btn:hover {
+    background: white;
+    color: midnightblue;
+    border: 2px solid green;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 37px;
+    padding-left: 37px;
+    border-radius: 20px;
+  }

@@ -1,0 +1,35 @@
+button {
+    display: inline-block;
+    min-width: 52px;
+    padding: 16px 20px;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    background-color: #EA1E63;
+    cursor: pointer;
+    border-radius: 3px;
+    border-style: none;
+    outline: none;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+button:hover {
+    box-shadow: 0 2px 4px#0005;
+}
+button.btn-round {
+    border-radius: 50%;
+}
+.right > form > .btn {
+    display: inline-block;
+    float: right;
+    margin-top: 60px;
+    margin-bottom: 80px;
+} 
+.hero > form > .btn > button {
+    display: inline-block;
+    float: left;
+    padding: 10px 25px;
+    margin: 35px calc( (100% - 158px) / 2 ) 0px;
+}

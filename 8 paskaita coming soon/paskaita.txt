@@ -1,0 +1,13 @@
+React 
+
+minimalus plotis turinys +100px
+
+saugios zonos po 40px
+Scrolas 17px
+
+likus 100px iki ekrano dydzio reikia mazinti turini iki sekancio dydzio
+
+Iki tam tikro dydzio (telefono) plotis yra fiksuotas
+
+Telefonui kai neabsimoka mazinti turinio nebemazianme, tik sudedame padingsu ir paliekame 100%
+

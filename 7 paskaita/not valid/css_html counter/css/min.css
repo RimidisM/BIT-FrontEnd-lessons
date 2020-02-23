@@ -1,0 +1,171 @@
+.secdec {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 50px;
+    width: 200px;
+    height: 600px;
+    background-color: green;
+    color: aqua;
+    position: relative;
+}
+.szero {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    /* position: absolute;
+    top: 50px;
+    bottom: 50px;
+    left: 50px; */
+    animation-name: sone1;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-delay: 50s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    opacity: 0; 
+    /* animation-timing-function: cubic-bezier(0.25,0.1,0.25,1); */
+}
+@keyframes sone1 {
+    0% {opacity: 0;top:0px;  color: aqua;}
+    17% {opacity: 0;top:0px;  color: aqua;}
+    33% {opacity: 0; top:0px;  color: aqua;}
+    50% {opacity: 0; top:0px;  color: aqua;}
+    67% {opacity: 0; top:0px;  color: aqua;}
+    83% {opacity: 1; top:0px;  color: red;}
+    100% {opacity: 1; top:0px; color: red;}
+}
+    .sone {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        /* position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px; */
+        animation-name: sone1;
+        animation-duration: 60s;
+        animation-timing-function: linear;
+        animation-delay: 40s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0;
+        /* animation-timing-function: cubic-bezier(0.25,0.1,0.25,1); */
+    }
+    @keyframes sone1 {
+        0% {opacity: 1; top:0px; color: red;}
+        17% {opacity: 0;top:0px;  color: aqua;}
+        33% {opacity: 0; top:0px;  color: aqua;}
+        50% {opacity: 0; top:0px;  color: aqua;}
+        67% {opacity: 0; top:0px;  color: aqua;}
+        83% {opacity: 0; top:0px;  color: aqua;}
+        100% {opacity: 0; top:0px; color: aqua;}
+    }
+    .stwo {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        /* position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px; */
+        animation-name: sone1;
+        animation-duration: 60s;
+        animation-timing-function: linear;
+        animation-delay: 30s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0;
+        /* animation-timing-function: cubic-bezier(0.25,0.1,0.25,1); */
+    }
+    @keyframes sone1 {
+        0% {opacity: 0; top:0px; color: aqua;}
+        17% {opacity: 1;top:0px;  color: red;}
+        33% {opacity: 0; top:0px;  color: aqua;}
+        50% {opacity: 0; top:0px;  color: aqua;}
+        67% {opacity: 0; top:0px;  color: aqua;}
+        83% {opacity: 0; top:0px;  color: aqua;}
+        100% {opacity: 0; top:0px; color: aqua;}
+    }
+    .sthree {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        /* position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px; */
+        animation-name: sone1;
+        animation-duration: 60s;
+        animation-timing-function: linear;
+        animation-delay: 20s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0;
+        /* animation-timing-function: cubic-bezier(0.25,0.1,0.25,1); */
+    }
+    @keyframes sone1 {
+        0% {opacity: 0; top:0px; color: aqua;}
+        17% {opacity: 0;top:0px;  color: aqua;}
+        33% {opacity: 1; top:0px;  color: red;}
+        50% {opacity: 0; top:0px;  color: aqua;}
+        67% {opacity: 0; top:0px;  color: aqua;}
+        83% {opacity: 0; top:0px;  color: aqua;}
+        100% {opacity: 0; top:0px; color: aqua;}
+    }
+    .sfour {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        /* position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px; */
+        animation-name: sone1;
+        animation-duration: 60s;
+        animation-timing-function: linear;
+        animation-delay: 10s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0;
+        animation-timing-function: steps(int,start|end);
+    }
+    @keyframes sone1 {
+        0% {opacity: 0;top:0px;  color: aqua;}
+        17% {opacity: 0;top:0px;  color: aqua;}
+        33% {opacity: 0; top:0px;  color: aqua;}
+        50% {opacity: 1; top:0px;  color: red;}
+        67% {opacity: 0; top:0px;  color: aqua;}
+        83% {opacity: 0; top:0px;  color: aqua;}
+        100% {opacity: 0; top:0px; color: aqua;}
+    }
+    .sfive {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        /* position: absolute;
+        top: 50px;
+        bottom: 50px;
+        left: 50px; */
+        animation-name: sone1;
+        animation-duration: 60s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        opacity: 0;
+        animation-timing-function: steps(int,start);
+    }
+    @keyframes sone1 {
+        0% {opacity: 0;top:0px;  color: aqua;}
+        17% {opacity: 0;top:0px;  color: aqua;}
+        33% {opacity: 0; top:0px;  color: aqua;}
+        50% {opacity: 0; top:0px;  color: aqua;}
+        67% {opacity: 1; top:0px;  color: red;}
+        83% {opacity: 0; top:0px;  color: aqua;}
+        100% {opacity: 0; top:0px; color: aqua;}
+    }
+    
+    p{
+        display: inline-block;
+        font-size: 40px;
+    }

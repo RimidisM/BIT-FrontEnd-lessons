@@ -1,0 +1,278 @@
+.container {
+    display: inline-block;
+    width: 100%;
+}
+.bg-blue {
+background: #03A9FA;
+}
+.bg-banner {
+    min-height: 100vh;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+
+/************************
+*HERO
+************************/
+.hero {
+    display: inline-block;
+    width: 600px;
+    margin: 40px calc( (100% - 600px) / 2 ) 30px;
+    text-align: center;
+}
+.hero img {
+    display: inline-block;
+    margin-bottom: 60px;
+}
+.hero h1 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 900;
+}
+.hero p {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #999;
+    margin: 20px 0;
+   
+}
+.hero > .clock {
+    display: inline-block;
+    width: 100%;
+}
+.hero > form {
+    display: inline-block;
+    width: 100%;
+    margin: px 5%;
+    padding: 20px 10px;
+}
+.hero > .mouse {
+    display: inline-block;
+    margin-top: 40px;
+}
+@media (max-width: 700px) {
+    .hero {
+        width: 100%;
+        margin: 60px 0 30px;
+        padding: 0 20px;
+    }
+}
+@media (max-width: 500px) {
+    .clock {
+        margin: 60px 0 0 0;
+        padding: 0px 0;
+    }
+    .clock > .time {
+        width: 50%;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .clock > .time > .value {
+        width: 100%;
+
+    }
+    .clock > .time > .label {
+        width: 100%;
+          
+    }
+}
+
+
+/* laikrodi clock tvarkyti nuo 550px skaicius deti vienas po kito time grupes pakeisti i 50% ideti marginbottom  */
+
+/************************
+*MAIN CONTENT
+************************/
+.content {
+    display: inline-block;
+    width: 1100px;
+    margin: 60px calc( (100% - 1100px) / 2 );
+}
+    .content > .left {
+        display: inline-block;
+        width: 45%;
+        float: left;
+    }
+    .content > .right {
+        display: inline-block;
+        width: 45%;
+        float: right;
+    }
+    .content h3 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;;
+        text-transform: uppercase;
+    }
+    .content p {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #999;
+    }
+        .content p > a {
+            color: red;
+            text-decoration: none;
+        }
+
+@media (max-width: 1250px) {
+    .content {
+        width: 900px;
+        margin: 60px calc( (100% - 900px) / 2 );
+    }
+}
+@media (max-width: 1050px) {
+    .content {
+        width: 700px;
+        margin: 60px calc( (100% - 700px) / 2 );
+    }
+    .right > form > .name {
+        width:100%;
+        float: right;
+        margin-bottom: 30px;
+    }
+    .right > form > .email {
+        width: 100%;
+        float: right;
+    }
+}
+@media (max-width: 800px) {
+    .content {
+        width: 500px;
+        margin: 60px calc( (100% - 500px) / 2 );
+    }
+    .content > .right {
+        width: 100%;
+        float: left;
+    }
+    .content > .left {
+        width: 100%;
+        float: left;
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 550px) {
+    .content {
+        width: 300px;
+        margin: 60px calc( (100% - 300px) / 2 );
+    }
+    .content > .right {
+        width: 100%;
+        float: left;
+    }
+    .content > .left {
+        width: 100%;
+        float: left;
+        margin-bottom: 60px;
+    }
+}
+
+/************************
+*FOOTER
+************************/
+.footer {
+    display: inline-block;
+    width: 1200px;
+    margin: 30px calc( (100% - 1200px) / 2 ) 30px;
+    text-align: center;
+    position: relative;
+}
+    .footer > .btn {
+        position: absolute;
+        top: -60px;
+        right: 30px;
+    }
+    .footer > .socials {
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #fff;
+    }
+    .footer > .socials > a {
+        display: inline-block;
+        width: 50px;
+        padding: 15px;
+        color: white;
+        font-size: 20px;
+        line-height: 20px;
+        text-decoration: none;
+    }
+        .footer > .socials > a:hover {
+            background-color: #fff;
+            color: #03A9F4;
+            border-radius: 50%;
+        }
+    .footer > .footer-content {
+        display: inline-block;
+        width:600px;
+        margin: 30px calc( (100% - 600px) / 2 ) 0;
+    }
+    .footer > .footer-content p {
+        display: inline-block;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .footer > .footer-content > img {
+        display: inline-block;
+        width: 200px;
+        margin: 20px calc( (100% - 200px) / 2 ) 30px;
+    }
+    .footer > .footer-content > .copyright {
+        display: inline-block;
+        color: #81ddff;
+    }
+    .footer > .footer-content p > a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+    }
+    .footer > .footer-content > .footer-text {
+        display: inline-block;
+        color: #c9f0ff;
+    }
+    
+    @media (max-width: 1250px) {
+        .footer {
+            width: 900px;
+            margin: 60px calc( (100% - 900px) / 2 );
+        }
+        .footer > .btn {
+            top: -85px;
+            right: 30px;
+        }
+    }
+    @media (max-width: 1050px) {
+        .footer {
+            width: 600px;
+            margin: 60px calc( (100% - 600px) / 2 );
+        }
+            .footer > .btn {
+                top: -85px;
+                right: 30px;
+            }
+    }
+    @media (max-width: 700px) {
+        .footer {
+            width: 100%;
+            margin: 10px 0 0;
+            padding: 0 20px;
+        }
+        .footer > .footer-content {
+            width:100%;
+        }
+        .footer > .btn {
+            display: none;
+        }
+    }
+  
+

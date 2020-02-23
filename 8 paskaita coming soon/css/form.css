@@ -1,0 +1,66 @@
+.right > form {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+    .right > form > .name {
+        display: inline-block;
+        width: 47%;
+        float: left;
+    }
+    .right > form > .email {
+        display: inline-block;
+        width: 47%;
+        float: right;
+    }
+        form label {
+            display: inline-block;
+            width: 100%;
+        }
+        .right > form input {
+            display: inline-block;
+            width: 100%;
+            border-style: none;
+            border-bottom: 1px solid #999;
+            font-size: 14px;
+            line-height: 40px;
+            color: #999;
+        }
+    .text-message {
+        display: inline-block;
+        width: 100%;
+        margin-top: 35px;
+    }
+        textarea  {
+            display: inline-block;
+            width: 100%;
+            min-height: 80px;
+            max-height: 300px;
+            border-style: none;
+            border-bottom: 1px solid #999;
+            font-size: 14px;
+            line-height: 30px;
+            color: #999;
+            resize: vertical; 
+        }
+.hero > form {
+    display: inline-block;
+    margin-top: 50px;
+    color: #fff;
+}  
+    .hero > form > .email > input::placeholder {
+        color: #fff;
+    }
+    .hero > form > .email > input {
+        display: inline-block;
+        background: transparent;
+        outline: none;
+        width: 100%;
+        border-style: none;
+        border-bottom: 1px solid #fff;
+        font-size: 14px;
+        line-height: 40px;
+        color: #fff;
+    }
+
+    

@@ -1,0 +1,97 @@
+body {
+background-color: rgb(24, 162, 226);
+}
+.container {
+    display: inline-block;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: calc( ( 100% - 800px ) / 2 );
+    /* background-color: yellowgreen; */
+    position: relative;
+}
+    .left {
+        display: inline-block;
+        width: 40%;
+        float: left;
+        background-color: #3853AA;
+        color: white;
+
+        position: absolute;
+        top: 30px;
+        bottom: 30px;
+        left: 0;
+    }
+        /* .left > a nepaims nieko .left a paiims visus esancius gylije */
+        
+        h1{
+            display: inline-block;
+            width: 100%;
+            color: white;
+            padding: 20px;
+        }
+        footer {
+            display: inline-block;
+            
+            color: white;
+            position: absolute;
+            bottom: 10px;
+            left: 30px;
+            right: 20px;
+
+        }
+
+        /* footer > a rasti visus vaikus (griestai vaikai) esancius footer */
+            footer > a {
+                display: inline-block;
+                color: white;
+
+            }
+
+            /* jei ne > o tarpas tada visiems */
+            footer > span {
+                display: inline-block;
+                color: white;
+
+            }
+    
+    .right {
+        display: inline-block;
+        width: 60%;
+        float: right;
+        padding: 80px;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top right;
+        position: relative;
+    }
+        .x {
+            display: inline-block;
+            /* background-color: tomato; */
+            width: 80px;
+            height: 80px;
+            font-size: 30px;
+            text-align: center;
+            line-height: 74px;
+
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+            .form-row > span {
+                display: inline-block;
+                margin-left: 20px;
+                margin-right: 20px;
+
+            }
+            .form-row > a {
+                display: inline-block;
+                font-size: 18px;
+                line-height: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+                padding-left: 10px;
+                
+
+            }
