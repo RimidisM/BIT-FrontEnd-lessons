@@ -1,0 +1,21 @@
+.info {
+    display: inline-block;
+    width: 75%;
+    margin-top:60px;
+    margin-left: 60px;
+}
+
+        .line {
+            width: 100%;
+            float: left;
+            margin-bottom: 30px;
+        }
+            input {
+                width: 100%;
+                padding: 0px 20px;
+                margin: 10px 0;
+                display: inline-block;
+                border-style: none;
+                border-bottom: 2px solid #D7D7D7;
+                box-sizing: border-box;
+            }

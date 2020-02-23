@@ -1,0 +1,112 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+}
+    .bg {
+        background-image: url(../IMG/Fonas1.png);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -2;
+    }
+    .container {
+        display: inline-block;
+        width: 800px;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+        .left {
+            display: inline-block;
+            float: left;
+            width: 40%;
+            background-image: url(../IMG/Fonas.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 30px;
+            bottom: 30px;
+            left: 0;
+        }
+            h1 {
+                display: inline-block;
+                float: left;
+                margin-top: 25px;
+                margin-left: 35px;
+                color: white;
+                font-size: 30px;
+                font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+            }
+            footer {
+                display: inline-block;
+                /* float: left; */
+                text-transform: none;
+                text-decoration: none;
+                /* margin-top: 320px; */
+                /* margin-left: 40px; */
+                color: white;
+                font-size: 13px;
+                font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+                position: absolute;
+                bottom: 20px;
+                right: 10px;
+                left: 35px;
+            }
+                footer a {
+                    text-transform: none;
+                    text-decoration: none;
+                    color: white;
+                }
+        .right {
+            display: inline-block;
+            float: right;
+            width: 60%;
+            margin-top: 10px;
+            /* height: 480px; */
+            background-color: white;
+            border-radius: 5px;
+            padding: 20px;
+            color: #D7D7D7;
+            text-transform: uppercase;
+            font-size: 10px;
+            position: relative;
+
+        }
+            .btnx {
+                display: inline-block;
+                float: right;
+                border: none;
+                background-color: white;
+                font-size: 25px;
+                color: #D7D7D7;
+                cursor: pointer;
+            }
+                    .ortx {
+                        display: inline-block;
+                        float: left;
+                        margin: 0;
+                        margin-left: 50px;
+                        margin-top: 16px;
+                        color: black;
+                        font-size: 12px;
+                        text-transform: lowercase;
+                    }
+                    form > a {
+                        display: inline-block;
+                        float: left;
+                        margin-left: 400px;
+                        width: 20%;
+                        text-transform: none;
+                        text-decoration: none;
+                        font-size: 15px;
+                        color: #0065DB;
+                        padding: 14px 5px;
+                        margin: 0px 0;
+                        border: none;
+                        cursor: pointer;
+                       
+                    }
+                 
