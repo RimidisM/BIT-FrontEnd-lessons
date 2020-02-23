@@ -1,0 +1,76 @@
+div {
+  display: inline-block;
+}
+
+.column1 {
+  float: left;
+  top: 50px;
+  min-width: 50%;
+  min-height: fit-content;
+  margin-top: 200px;
+  margin-left: 25%;
+  padding: 0px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+  float: left;
+  width:30%;
+  margin-left: 17%;
+  margin-top: 50px;
+  padding: 0px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+.column3 {
+  float: right;
+  width:35%;
+  margin-right: 17%;
+  margin-top: 50px;
+  padding: 0px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+img {
+  float: right;
+  margin: 0;
+  margin-left: 0;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  }
+
+p {
+  font-size: 20px;
+  text-align: center;
+  margin: -10px;
+  padding: -10px;
+  }
+
+#p1 {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+    }
+
+body {
+  background-color: rgb(234, 235, 237);
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+} 
+
+.button {
+  border: none;
+  border-radius: 1px;
+  color: white;
+  padding: 10px 15px;
+  font-size: 17px;
+  font-weight: 500;
+   cursor: pointer;
+  background-color:rgb(105, 110, 139);
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
